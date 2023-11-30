@@ -126,8 +126,23 @@
  }
  
 
+ 
+/* ? MEDIA QUERY */
+
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        
     }
 }
