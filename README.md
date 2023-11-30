@@ -17,7 +17,7 @@ Descrizione:
   Quando la soluzione ci sembra giusta, la copiamo nel file css. Aggiungiamo sempre solo un pezzettino alla volta.
 
 Bonus:
-- Sopra i 768px e fino ai 1160px il layout è un po’ troppo “rigido”! Come mai? :faccia_pensosa:
+- Sopra i 768px e fino ai 1160px il layout è un po’ troppo “rigido”! Come mai? 
 - Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale.
 
 Consigli:
