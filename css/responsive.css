@@ -129,20 +129,64 @@
  
 /* ? MEDIA QUERY */
 
+/* Media Query a 768px */
 @media screen and (max-width: 768px) {
+
+    /* Ingrandiamo solo i contenitori */
     .container {
         width: 100%;
     }
 }
 
+/* Media Query a 576px */
 @media screen and (max-width: 576px) {
+
+    /* Contenitori prendono il 100% dello spazio */
     .container {
         width: 100%;
     }
 
+    /* Le row le mettimao in verticale e accentrate */
     .row {
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center; 
+    }
+
+    /* Modifico Sezione .why-us */
+    .why-us {
+        background-color: #222222;
+        margin: 0;
+        padding: 50px 0;
+    }
+
+    /* Alla Sezione .steps gli togliamo il margine inferiore */
+    .steps {
+        margin-bottom: 0;  
+    }
+
+    /* Le .col  dentro a .steps, .lessons e .why-us prendono il 100% dello spazio */
+    .steps .col, .lessons .col, .why-us .col-right {
+        width: 100%;
+    }
+
+    /* La .col dentro a .why-us prende il 60% dello spazio */
+    .why-us .col-left {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    /* Hai testi gli diamo un margine inferiore */
+    .text {
+        margin-bottom: 50px;
+    }
+
+    /* H2 dentro */
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* Titolo */
+    h1 {
+        font-size: 3.2rem;
     }
 }
