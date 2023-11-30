@@ -21,7 +21,7 @@ Bonus:
 - Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale.
 
 Consigli:
-- Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del tag: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Per poter vedere correttamente un sito responsive è necessaria l'aggiunta del tag: [<meta name="viewport" content="width=device-width, initial-scale=1.0">]
 
 Avviso:
 - Fate attenzione: passando dagli strumenti responsive alla versione normale del sito i browser "sbarellano" un pochetto,
